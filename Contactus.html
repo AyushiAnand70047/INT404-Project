@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.CSS">
+    <style>
+        body {
+            background: url("bg1.webp") no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <script src="Logic.js"></script>
+</head>
+
+<body>
+    <table class="header">
+        <tr>
+            <td>
+                <table class="header1">
+                    <tr>
+                        <td>
+                            <font class="main">
+                                Let's Code
+                            </font>
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td onclick="blog();">
+                            <font class="font">Home</font>
+                        </td>
+                        <td onclick="contact();">
+                            <font class="font">Query</font>
+                        </td>
+                        <td onclick="login();">
+                            <font class="font">Navigation</font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <input id="InputBox" type="text" placeholder="Type a message..." onkeydown="IsEnter(event)" autofocus>
+    <h1 id="ResponseText"><br></h1>
+</body>
+
+</html>
